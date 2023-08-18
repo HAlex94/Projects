@@ -19,6 +19,7 @@ This project harnesses the power of OpenAI's GPT-3 model to provide a user-frien
 ### Prerequisites:
 - Python 3.7 or higher
 - An OpenAI API key
+- Code Editor (can also run in a Google Colab or Jupyter Notebook)
 
 ### Steps:
 
