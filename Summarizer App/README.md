@@ -24,7 +24,7 @@ This project harnesses the power of OpenAI's GPT-3 model to provide a user-frien
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/GPT-3-Streamlit-Application.git
+   git clone https://github.com/HAlex94/Projects/tree/main/Summarizer%20App
 
 2. **Go to the Folder Directory**
    ```bash
