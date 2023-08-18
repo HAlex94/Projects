@@ -40,6 +40,8 @@ This project is an adaptation from Data Professor's (Chanin Nantasenamat, Ph.D.)
 ## [Multiple Sclerosis Predictor](https://github.com/HAlex94/Projects/tree/main/Multiple_Sclerosis_Predictor)
 * [MS Predictor Analysis](https://github.com/HAlex94/Projects/blob/main/Multiple_Sclerosis_Predictor/MS_Predictor_Analysis.ipynb)
 
+&nbsp;
+
 ## [Summarizer(FastInfo) App](https://github.com/HAlex94/Projects/tree/main/Summarizer%20App)
 * Application chatbot where the user can upload a pdf (or a csv)
 file and interact with it using a large language model.
