@@ -25,7 +25,7 @@ def generate_reponse(drug_info, query):
     drug_info_text = re.sub(r'\s+', ' ', drug_info_text).strip()
 
     # Calculate the maximum allowable tokens for drug_info_text
-    buffer_for_completion = 1600  # Setting a buffer for the completion
+    buffer_for_completion = 2000  # Setting a buffer for the completion
     max_tokens_for_drug_info = 4097 - len(query.split()) - buffer_for_completion
 
     # Check token count and truncate if necessary
@@ -60,16 +60,16 @@ if drug_name:
         drug_info = response.json()['results'][0]
 
         # Display drug summary
-        st.subheader('Drug Summary')
-        st.write(drug_info)
+        #st.subheader('Drug Summary')
+        #st.write(drug_info)
 
         # Consultation section
         st.subheader('Consultation')
-        scenarios = ['missed a dose', 'double dosing']
+        scenarios = ['Missed a dose', 'Double dosed']
         for scenario in scenarios:
             question = f'What to do if a patient {scenario} of {drug_name}?'
             response = generate_reponse(drug_info, question)
-            st.write(f'If a patient {scenario}, {response}')
+            st.write(f'**{scenario}**: {response}')
 
         # Chatbot interface
         st.subheader('Chatbot')
