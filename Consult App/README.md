@@ -52,4 +52,5 @@ To set up the Pharmacy Consultation App on your local machine:
     ```
 
 ## Example
-![Screenshot 2023-08-18 104429](https://github.com/HAlex94/Projects/assets/108144585/01f2f9c8-ac1e-44f3-b106-39fb42a1fa7d)
+
+![Screenshot 2023-08-18 104429](https://github.com/HAlex94/Projects/assets/108144585/1b8d7d2a-dfa8-4cd3-9ef2-56952156e1ab)
