@@ -65,7 +65,7 @@ if drug_name:
 
         # Consultation section
         st.subheader('Consultation')
-        scenarios = ['Missed a dose', 'Double dosed']
+        scenarios = ['Missed a dose', 'Takes double the dose']
         for scenario in scenarios:
             question = f'What to do if a patient {scenario} of {drug_name}?'
             response = generate_reponse(drug_info, question)
